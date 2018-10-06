@@ -10,10 +10,10 @@ const animalMethods = {
 	play: function (length) {
 		console.log(`${this.name} is playing`);
 		this.energy -= length;
-    },
-    poop: function () {
+	},
+	poop: function () {
 		console.log(`${this.name} is pooping`);
-    }
+	}
 }
 
 function Animal (name, energy) {
